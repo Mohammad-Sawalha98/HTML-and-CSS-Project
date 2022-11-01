@@ -1,0 +1,459 @@
+#container{
+
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto  auto;
+    
+    height: auto;
+    position: relative;
+    row-gap: 100px;
+    column-gap: 50px;
+    background-color: #E5E3E4;
+   
+    
+    
+}
+#header{
+display:flex;
+
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    margin-left: 50px;
+}
+
+#navme{
+height: 80px;
+     
+  }
+
+.nav-item{
+    padding-inline: 35px;
+    font-size: 20px;
+   
+}
+.navbar-nav{
+    margin-left: 300px;
+}
+
+
+.nav-link:hover{
+background-color: whitesmoke;
+border-radius: 5px;
+
+}
+
+.myphoto{
+    
+    background-image: url(me4.jpg);
+    height:600px;
+    width:420px;
+    background-repeat: no-repeat;
+    border-radius: 0px 300px 300px 0px ;
+    position: absolute;
+    z-index: 3;
+    
+}
+.photocontainer{
+background-color:#3C4048;
+width: 600px;
+height: 605px;
+position:relative ;
+z-index: 1;
+right:0px;
+
+}
+.beauty{
+    background-color: #00ADB5;
+    width:450px;
+    height: 602px;
+    position: absolute;
+    z-index: 2;
+    border-radius: 0px 310px 310px 0px;
+    
+
+}
+.hname{
+    display: inline-block;
+    padding-inline: 4px;
+}
+.hname::first-letter {
+    font-size: 150%;
+    color: #00ADB5;
+  }
+
+.aboutme{
+width: 920px;
+height: 605px;
+background-color: #3C4048;
+color: white;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+grid-column: 2 / span 3;
+
+}
+.aboutme h1{
+    margin-top: 50px;
+
+}
+ .job{
+margin-top: 40px;
+font-size: x-large;
+
+ }
+ .confedance{
+margin-top: 70px;
+font-size: x-large;
+font-family: "Courier New", monospace;
+
+ }
+ .cv{
+width: 150px;
+height: 50px;
+background-color:#00ADB5 ;
+color: white;
+border-radius: 10px;
+font-size: 20px;
+
+ }
+
+ .cv:hover{
+    box-shadow: 10px 10px 25px #00ADB5 ;
+}
+
+ 
+
+#education{
+background-color:#B2B2B2 ;
+width:1050px ;
+height: 200px;
+/* grid-column: 1 / span 3; */
+border-radius: 35px;
+margin-left: 215px;
+text-align: center;
+margin-top: 90px;
+position: relative;
+padding: 20px;
+font-size:17px ;
+
+}
+#education:hover{
+
+    box-shadow: 20px 20px 50px grey;
+}
+#edutitle{
+text-align: center;
+background-color: #00ADB5;
+width: 220px;
+height: 50px;
+border-radius: 10px;
+position: absolute;
+margin-top: -80px;
+margin-left: 420px;
+
+}
+
+.educontainer{
+height: 300px;
+width: 1200px;
+grid-column: 1 / span 3;
+
+
+
+}
+
+.title{
+font-weight:bold;
+
+}
+
+.info{
+    font-weight:bold;
+}
+
+#certificate{
+    background-color:#B2B2B2 ;
+    width:1250px ;
+    height: 350px;
+    grid-column: 1 / span 3;
+    border-radius: 35px;
+    margin-left: 140px;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 25px;
+    
+    }
+
+   #certificate:hover{
+
+        box-shadow: 20px 20px 50px grey;
+    }
+
+
+    #certitle{
+        text-align: center;
+        background-color: #00ADB5;
+        width: 500px;
+        height: 50px;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: -90px;
+        margin-left: 370px;
+
+    }
+
+    .cercontainer{
+        height: 300px;
+        width: 1200px;
+        grid-column: 1 / span 3;
+        position: relative;
+
+
+    }
+
+
+
+
+    #contact{
+        background-color:#B2B2B2 ;
+        width:950px ;
+        height: 250px;
+        grid-column: 1 / span 3;
+        border-radius: 35px;
+        margin-left: 290px;
+        text-align: center;
+        position: relative;
+        padding: 20px;
+        margin-top: 50px;
+        font-size: 17px;
+        
+    
+    }
+    
+    #contact:hover{
+        box-shadow: 20px 20px 50px grey;
+    }
+    
+
+
+
+
+    #contitle{
+        text-align: center;
+        background-color: #00ADB5;
+        width: 240px;
+        height: 50px;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: -75px;
+        margin-left: 340px;
+
+    }
+
+    .concontainer{
+        height: 300px;
+        width: 1200px;
+        grid-column: 1 / span 3;
+
+
+    }
+
+
+
+
+.mainskill{
+width: 100%;
+background-color:#E5E3E4;
+display: flex;
+
+}
+.con{
+    display: inline-block;
+    width: 35%;
+    margin-inline: 7%;
+   
+}
+
+
+
+
+    #tech{
+        background-color:#B2B2B2 ;
+        height: 250px;
+        border-radius: 35px;
+        text-align: center;
+        padding: 20px;
+        margin-top: 50px;
+        font-size: 17px;
+        position: relative;
+    
+    }
+    
+    #tech:hover{
+        box-shadow: 20px 20px 50px grey;
+    }
+    
+
+
+
+
+    #techtitle{
+        text-align: center;
+        background-color: #00ADB5;
+        width: 280px;
+        height: 50px;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: -75px;
+        margin-left: 130px;
+
+    }
+
+
+
+
+
+    #pers{
+        background-color:#B2B2B2 ;
+        height: 250px;
+        border-radius: 35px;
+        text-align: center;
+        padding: 20px;
+        margin-top: 50px;
+        font-size: 17px;
+        position: relative;
+    
+    }
+    
+    #pers:hover{
+        box-shadow: 20px 20px 50px grey;
+    }
+    
+
+
+
+
+    #perstitle{
+        text-align: center;
+        background-color: #00ADB5;
+        width: 280px;
+        height: 50px;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: -75px;
+        margin-left: 130px;
+
+    }
+
+    
+
+
+
+
+.mainref{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+width: 100%;
+background-color:#E5E3E4;
+
+
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+  
+    width: 25%;
+    margin-inline: 7%;
+    
+   
+   
+
+
+}
+
+
+    #reference1:hover{
+        box-shadow: 20px 20px 50px grey;
+    }
+    
+    
+    #reference1{
+        background-color:#B2B2B2 ;
+        width:25% ;
+        height: 500px;
+        border-radius: 35px;
+        text-align: center;
+        padding: 50px;
+        margin-top: 180px;
+        
+    }
+
+
+    #reference2:hover{
+        box-shadow: 20px 20px 50px #00ADB5;
+    }
+
+
+
+    #reftitle{
+        text-align: center;
+        background-color: #B2B2B2 ;
+        width: 240px;
+        height: 50px;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: -60px;
+        margin-left: 85px;
+        position: absolute;
+    
+    } 
+
+    
+
+    #reference2{
+        background-color:#00ADB5 ;
+        width:25% ;
+        height: 500px;
+        border-radius: 35px;
+        text-align: center;
+        margin-top: 120px;
+        position: relative;
+    
+    }
+    
+
+    #reference3{
+        background-color:#B2B2B2 ;
+        width:25% ;
+        height: 500px;
+        border-radius: 35px;
+        
+        text-align: center;
+      
+        margin-top: 180px;
+    }
+    
+    #reference3:hover{
+        box-shadow: 20px 20px 50px grey;}
+
+
+
+.footer{
+    background-color:#00ADB5;
+    height: 50px;
+    width: auto;
+    
+   
+    }
+    
+    .foot-item{
+    display: inline-block;
+    padding-inline: 25px;
+    padding-top: 5px;
+    }
