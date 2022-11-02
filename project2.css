@@ -1,20 +1,8 @@
-#container{
 
-    display: grid;
-    grid-template-columns: auto auto auto ;
-    grid-template-rows: auto auto auto  auto;
-    
-    height: auto;
-    position: relative;
-    row-gap: 100px;
-    column-gap: 50px;
-    background-color: #E5E3E4;
-   
-    
-    
-}
 #header{
 display:flex;
+flex-direction: row;
+width: 100%;
 
 }
 .logo{
@@ -46,7 +34,7 @@ border-radius: 5px;
 
 .myphoto{
     
-    background-image: url(me4.jpg);
+    background-image: url(pics-2/me4.jpg);
     height:600px;
     width:420px;
     background-repeat: no-repeat;
@@ -57,7 +45,7 @@ border-radius: 5px;
 }
 .photocontainer{
 background-color:#3C4048;
-width: 600px;
+width: 40%;
 height: 605px;
 position:relative ;
 z-index: 1;
@@ -66,7 +54,7 @@ right:0px;
 }
 .beauty{
     background-color: #00ADB5;
-    width:450px;
+    width:435px;
     height: 602px;
     position: absolute;
     z-index: 2;
@@ -84,14 +72,11 @@ right:0px;
   }
 
 .aboutme{
-width: 920px;
-height: 605px;
+width: 63%;
 background-color: #3C4048;
 color: white;
 text-align: center;
 font-family: Georgia, 'Times New Roman', Times, serif;
-
-grid-column: 2 / span 3;
 
 }
 .aboutme h1{
@@ -123,337 +108,1126 @@ font-size: 20px;
     box-shadow: 10px 10px 25px #00ADB5 ;
 }
 
- 
-
-#education{
-background-color:#B2B2B2 ;
-width:1050px ;
-height: 200px;
-/* grid-column: 1 / span 3; */
-border-radius: 35px;
-margin-left: 215px;
-text-align: center;
-margin-top: 90px;
-position: relative;
-padding: 20px;
-font-size:17px ;
-
-}
-#education:hover{
-
-    box-shadow: 20px 20px 50px grey;
-}
-#edutitle{
-text-align: center;
-background-color: #00ADB5;
-width: 220px;
-height: 50px;
-border-radius: 10px;
-position: absolute;
-margin-top: -80px;
-margin-left: 420px;
-
-}
-
-.educontainer{
-height: 300px;
-width: 1200px;
-grid-column: 1 / span 3;
 
 
 
-}
 
-.title{
-font-weight:bold;
 
-}
-
-.info{
-    font-weight:bold;
-}
-
-#certificate{
-    background-color:#B2B2B2 ;
-    width:1250px ;
-    height: 350px;
-    grid-column: 1 / span 3;
-    border-radius: 35px;
-    margin-left: 140px;
+.maineduc{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     text-align: center;
-    position: relative;
-    font-size: 17px;
-    padding: 25px;
-    
-    }
-
-   #certificate:hover{
-
-        box-shadow: 20px 20px 50px grey;
-    }
-
-
-    #certitle{
-        text-align: center;
-        background-color: #00ADB5;
-        width: 500px;
-        height: 50px;
-        border-radius: 10px;
-        position: absolute;
-        margin-top: -90px;
-        margin-left: 370px;
-
-    }
-
-    .cercontainer{
-        height: 300px;
-        width: 1200px;
-        grid-column: 1 / span 3;
-        position: relative;
-
-
-    }
-
-
-
-
-    #contact{
-        background-color:#B2B2B2 ;
-        width:950px ;
-        height: 250px;
-        grid-column: 1 / span 3;
-        border-radius: 35px;
-        margin-left: 290px;
-        text-align: center;
-        position: relative;
-        padding: 20px;
-        margin-top: 50px;
-        font-size: 17px;
-        
+    margin-top: 45px;
     
     }
     
-    #contact:hover{
+    .maineduc2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 45px 0px;
+    background-color:#E5E3E4;
+border-radius: 30px;
+width: 80%;
+align-self: center;
+    }
+    .maineduc2:hover{
         box-shadow: 20px 20px 50px grey;
     }
     
-
-
-
-
-    #contitle{
-        text-align: center;
-        background-color: #00ADB5;
-        width: 240px;
-        height: 50px;
-        border-radius: 10px;
-        position: absolute;
-        margin-top: -75px;
-        margin-left: 340px;
-
+    .eductitle{
+    background-color: #00ADB5;
+    width: 20%;
+    align-self: center;
+    border-radius: 15px;
+    margin-bottom:15px ;
     }
-
-    .concontainer{
-        height: 300px;
-        width: 1200px;
-        grid-column: 1 / span 3;
-
-
+    .ineduc{
+        width: 30%;
+        height: auto;
+    
+    }
+    .maineduc img{
+    width: 80%;
+    height: 75%;
+    border: black solid 3px;
     }
 
 
 
+
+
+.maincert{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: 55px;
+    
+    }
+    
+    .maincert2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 45px 0px;
+    font-size: 15px;
+    background-color:#E5E3E4;
+border-radius: 30px;
+width: 80%;
+align-self: center;
+    }
+
+    .maincert2:hover{
+        box-shadow: 20px 20px 50px grey;
+    }
+    
+    .certtitle{
+    background-color: #00ADB5;
+    width: 35%;
+    align-self: center;
+    border-radius: 15px;
+    margin-bottom:15px ;
+    }
+    .incert{
+        width: 30%;
+        height: auto;
+    
+    }
+    .maincert img{
+    width: 80%;
+    height: 75%;
+    border: black solid 3px;
+    
+    
+    }
+
+
+
+
+.main{
+display: flex;
+flex-direction: column;
+width: 100%;
+text-align: center;
+margin-top: 55px;
+
+}
 
 .mainskill{
-width: 100%;
-background-color:#E5E3E4;
 display: flex;
-
-}
-.con{
-    display: inline-block;
-    width: 35%;
-    margin-inline: 7%;
-   
-}
-
-
-
-
-    #tech{
-        background-color:#B2B2B2 ;
-        height: 250px;
-        border-radius: 35px;
-        text-align: center;
-        padding: 20px;
-        margin-top: 50px;
-        font-size: 17px;
-        position: relative;
-    
-    }
-    
-    #tech:hover{
-        box-shadow: 20px 20px 50px grey;
-    }
-    
-
-
-
-
-    #techtitle{
-        text-align: center;
-        background-color: #00ADB5;
-        width: 280px;
-        height: 50px;
-        border-radius: 10px;
-        position: absolute;
-        margin-top: -75px;
-        margin-left: 130px;
-
-    }
-
-
-
-
-
-    #pers{
-        background-color:#B2B2B2 ;
-        height: 250px;
-        border-radius: 35px;
-        text-align: center;
-        padding: 20px;
-        margin-top: 50px;
-        font-size: 17px;
-        position: relative;
-    
-    }
-    
-    #pers:hover{
-        box-shadow: 20px 20px 50px grey;
-    }
-    
-
-
-
-
-    #perstitle{
-        text-align: center;
-        background-color: #00ADB5;
-        width: 280px;
-        height: 50px;
-        border-radius: 10px;
-        position: absolute;
-        margin-top: -75px;
-        margin-left: 130px;
-
-    }
-
-    
-
-
-
-
-.mainref{
-display: flex;
-flex-wrap: wrap;
+flex-direction: row;
 justify-content: space-around;
-width: 100%;
+flex-wrap: wrap;
+font-size: 17px;
+padding-top: 35px;
 background-color:#E5E3E4;
+border-radius: 30px;
+width: 80%;
+align-self: center;
+}
+
+.mainskill:hover{
+    box-shadow: 20px 20px 50px grey;
+}
+
+.skilltitle{
+background-color: #00ADB5;
+width: 25%;
+align-self: center;
+border-radius: 15px;
+margin-bottom:15px ;
+}
+.inskill{
+    width: 40%;
+    height: auto;
+
+}
+.mainskill img{
+width: 80%;
+height: 75%;
+border: black solid 3px;
+
+
+}
+
+
+
+
+.main2{
+display: flex;
+flex-direction: column;
+width: 100%;
+text-align: center;
+margin-top: 35px;
+
+}
+
+.mainskill2{
+display: flex;
+flex-direction: row;
+background-color:#E5E3E4;
+justify-content: space-around;
+align-content: space-between;
+flex-wrap: wrap;
+padding-top: 40px;
+font-size: 25px;
+border-radius: 30px;
+width: 80%;
+align-self: center;
+
+}
+
+.mainskill2:hover{
+    box-shadow: 20px 20px 50px grey;
+}
+
+.skilltitle2{
+background-color: #00ADB5;
+width: 15%;
+align-self: center;
+border-radius: 15px;
+margin-bottom:15px ;
+
+
+}
+.inskill2{
+    width: 40%;
+    
+    
+    
+
+}
+.mainskill2 img{
+width: 80%;
+height: 75%;
+border: black solid 3px;
+
+}
+.softskill{
+    height:auto;
+}
+
+
+
+
+
+.main-ref{
+display: flex;
+flex-direction: column;
+/* background-color: aqua; */
+width: 100%;
+text-align: center;
+margin-top: 100px;
+align-self: center;
 
 
 
 }
 
-.row{
+.main-inner{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+
+width: 100%;
+margin-top: 10px;
+height: auto;
+
+
+}
+
+.inref{
+   
+width: 25%;
+background-color: #B2B2B2;
+border-radius: 25px;
+padding-top: 25px;
+
+
+
+}
+.maintitle2{
+background-color: #B2B2B2;
+width: 15%;
+border-radius: 15px;
+text-align: center;
+align-self: center;
+}
+.refimg{
+border-radius: 50%;
+width: 35%;
+}
+
+#hala-card{
+background-color: #00ADB5;
+margin-bottom: 50px;
+}
+
+#hala-card:hover{
+    box-shadow: 20px 20px 50px #00ADB5;
+}
+#rabee-card:hover{
+    box-shadow: 20px 20px 50px gray;
+}
+#belal-card:hover{
+    box-shadow: 20px 20px 50px gray;
+}
+
+
+#rabee-card{
+background-color:#B2B2B2;
+margin-top: 50px;
+
+
+
+}
+#belal-card{
+background-color:#B2B2B2;
+margin-top: 50px;
+
+
+
+}
+
+
+#footer{
+    background-color: #B2B2B2 ;
+width: 100%;
+display: flex;
+flex-direction: row;
+margin-top: 100px;
+font-size: 10px;
+justify-content: space-around;
+}
+
+
+.ulfoot{
+display: flex;
+flex-direction: column;
+list-style-type: none;
+color: black;
+flex-wrap: wrap;
+width: 20%;
+font-size: 10px;
+}
+
+
+.ulfoot2{
     display: flex;
-    justify-content: space-between;
-  
-    width: 25%;
-    margin-inline: 7%;
+    flex-direction: column;
+   width: 30%;
+font-size: 12px;
     
-   
-   
+    }
+
+    .footlogo{
+        display: flex;
+        width: 20%;
+        flex-direction: column;
+       margin-top: 10px;
+        }
+        
+        .logo-footer{
+        height: 60px;
+        width: 60px;
+        align-self: center;
+        
+        }
+
+
+.lifoot{
+    width: 100%;
+    
+}
+.mailfooter{
+font-size: 10px;
+
+}
+i{
+    color:black;
+    font-size: 15px;
+}
+
+ul{list-style-type: none;}
+
+
+
+@media (min-width:0px) and (max-width:480px){
+
+     h1{
+        font-size: 20px !important;
+    }
+    .beauty {display: none;}
+    .myphoto{display: none;}
+    .aboutme {width: 100%;}
+    .photocontainer{
+    
+    display: none;
+    
+    }
+    
+
+
+    
+
+
+        .job{
+            margin-top: 40px;
+            font-size: small;
+            
+             }
+             .confedance{
+            margin-top: 70px;
+            font-size:10px;
+            font-family: "Courier New", monospace;
+            
+             }
+             .cv{
+            width: 150px;
+            height: 50px;
+            background-color:#00ADB5 ;
+            color: white;
+            border-radius: 10px;
+            font-size: 15px;
+            
+             }
+             .hname{
+                display: inline-block;
+                padding-inline: 4px;
+                font-size: 20px;
+            }
+            .logo{
+                width: 50px;
+                height: 50px;
+                margin-left: 50px;
+                
+            }
+            .maineduc2{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                padding: 45px 0px;
+                background-color:#E5E3E4;
+            border-radius: 30px;
+            width: 98%;
+            align-self: center;
+                }
+                
+                .eductitle{
+                background-color: #00ADB5;
+                width: 40%;
+                align-self: center;
+                border-radius: 15px;
+                margin-bottom:15px ;
+                }
+                .ineduc{
+                    width: 100%;
+                    height: 470px;
+                    font-size: 10px;
+                
+                }
+                .maineduc img{
+                width: 85%;
+                height: 80%;
+                border: black solid 1px;
+                }
+
+
+                .main{
+                    display: flex;
+                    flex-direction: column;
+                    width: 98%;
+                    text-align: center;
+                    margin-top: 55px;
+                    /* flex-wrap: wrap; */
+                    
+                    }
+
+                    .maincert{
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        text-align: center;
+                        margin-top: 55px;
+                        align-self: center;
+                        
+                        }
+                        
+                        .maincert2{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        flex-wrap: wrap;
+                        padding: 30px 0px;
+                        font-size: 12px;
+                        background-color:#E5E3E4;
+                    border-radius: 30px;
+                    width: 98%;
+                    align-self: center;
+                   row-gap: 25px;
+                        }
+                        
+                        .certtitle{
+                        background-color: #00ADB5;
+                        width: 55%;
+                        align-self: center;
+                        border-radius: 15px;
+                        margin-bottom:15px ;
+                        }
+                        .incert{
+                            width: 100%;
+                            height: auto;
+                        
+                        }
+                        .maincert img{
+                        width: 85%;
+                        height: 80%;
+                        border: black solid 1px;
+                        
+                        
+                        }
+
+                        .main{
+                            display: flex;
+                            flex-direction: column;
+                            width: 100%;
+                            text-align: center;
+                            margin-top: 55px;
+                            
+                            }
+                            
+                            .mainskill{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            flex-wrap: wrap;
+                            font-size: 9px;
+                            padding-top: 35px;
+                            background-color:#E5E3E4;
+                            border-radius: 30px;
+                            width: 98%;
+                            align-self: center;
+                            }
+                            
+                            .skilltitle{
+                            background-color: #00ADB5;
+                            width: 40%;
+                            
+                            align-self: center;
+                            border-radius: 15px;
+                            margin-bottom:15px ;
+                            }
+                            .inskill{
+                                width: 100%;
+                                height: auto;
+                            
+                            }
+                            .mainskill img{
+                            width: 85%;
+                            height: 80%;
+                            border: black solid 1px;
+                            
+                            
+                            }
+                            .main2{
+                                display: flex;
+                                flex-direction: column;
+                                width: 100%;
+                                text-align: center;
+                                margin-top: 35px;
+                                
+                                }
+                                
+                                .mainskill2{
+                                display: flex;
+                                flex-direction: row;
+                                background-color:#E5E3E4;
+                                justify-content: space-around;
+                                align-content: space-between;
+                                flex-wrap: wrap;
+                                padding-top: 40px;
+                                font-size: 25px;
+                                border-radius: 30px;
+                                width: 98%;
+                                align-self: center;
+                                
+                                }
+                                
+                                .skilltitle2{
+                                background-color: #00ADB5;
+                                width: 25%;
+                                align-self: center;
+                                border-radius: 15px;
+                                margin-bottom:15px ;
+                                
+                                
+                                
+                                }
+                                .inskill2{
+                                    width: 100%;
+                                    font-size: 10px;
+                                    
+                                    
+                                
+                                }
+                                .mainskill2 img{
+                                width: 85%;
+                                height: 80%;
+                                border: black solid 1px;
+                                
+                                }
+                                .softskill{
+                                    height: auto;
+                                }
+                                
+
+
+
+
+                                .main-ref{
+                                    display: flex;
+                                    flex-direction: column;
+                                    width: 100%;
+                                    text-align: center;
+                                    margin-top: 100px;
+                                    
+                                    
+                                    
+                                    }
+                                    
+                                    .main-inner{
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-around;
+                                    flex-wrap: wrap;
+                                    font-size: 10px;
+                                    width: 100%;
+                                    margin-top: 10px;
+                                    height: auto;
+                                    
+                                    
+                                    }
+                                    
+                                    .inref{
+                                       
+                                    width: 100%;
+                                    background-color: #B2B2B2;
+                                    border-radius: 25px;
+                                    padding-top: 25px;
+                                    
+                                    
+                                    
+                                    }
+                                    .maintitle2{
+                                    background-color: #B2B2B2;
+                                    width: 40%;
+                                    border-radius: 15px;
+                                    text-align: center;
+                                    align-self: center;
+                                    }
+                                    .refimg{
+                                    border-radius: 50%;
+                                    width: 35%;
+                                    }
+                                    
+                                    #hala-card{
+                                    background-color: #00ADB5;}
+                                    
+.main-ref{
+display: flex;
+flex-direction: column;
+
+width: 100%;
+text-align: center;
+margin-top: 100px;
+
 
 
 }
 
+.main-inner{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
 
-    #reference1:hover{
-        box-shadow: 20px 20px 50px grey;
-    }
-    
-    
-    #reference1{
-        background-color:#B2B2B2 ;
-        width:25% ;
-        height: 500px;
-        border-radius: 35px;
-        text-align: center;
-        padding: 50px;
-        margin-top: 180px;
-        
-    }
+width: 100%;
+margin-top: 10px;
+height: auto;
 
 
-    #reference2:hover{
-        box-shadow: 20px 20px 50px #00ADB5;
-    }
+}
 
-
-
-    #reftitle{
-        text-align: center;
-        background-color: #B2B2B2 ;
-        width: 240px;
-        height: 50px;
-        border-radius: 10px;
-        position: absolute;
-        margin-top: -60px;
-        margin-left: 85px;
-        position: absolute;
-    
-    } 
-
-    
-
-    #reference2{
-        background-color:#00ADB5 ;
-        width:25% ;
-        height: 500px;
-        border-radius: 35px;
-        text-align: center;
-        margin-top: 120px;
-        position: relative;
-    
-    }
-    
-
-    #reference3{
-        background-color:#B2B2B2 ;
-        width:25% ;
-        height: 500px;
-        border-radius: 35px;
-        
-        text-align: center;
-      
-        margin-top: 180px;
-    }
-    
-    #reference3:hover{
-        box-shadow: 20px 20px 50px grey;}
-
-
-
-.footer{
-    background-color:#00ADB5;
-    height: 50px;
-    width: auto;
-    
+.inref{
    
-    }
+width: 100%;
+background-color: #B2B2B2;
+border-radius: 25px;
+padding-top: 25px;
+font-size: 12px;
+
+
+}
+.maintitle2{
+background-color: #B2B2B2;
+width: 45%;
+border-radius: 15px;
+text-align: center;
+align-self: center;
+}
+.refimg{
+border-radius: 50%;
+width: 35%;
+}
+
+#hala-card{
+background-color: #00ADB5;
+margin-top: 50px;
+height: 350px;
+}
+
+
+#rabee-card{
+background-color:#B2B2B2;
+height: 350px;
+
+}
+#belal-card{
+background-color:#B2B2B2;
+
+}
+
+
+#footer{
+    background-color: #00ADB5;
+width: 100%;
+display: flex;
+flex-direction: row;
+margin-top: 100px;
+font-size: 10px;
+justify-content: space-around;
+}
+
+
+.ulfoot{
+display: flex;
+flex-direction: column;
+list-style-type: none;
+color: black;
+flex-wrap: wrap;
+width: 40%;
+font-size: 11px;
+}
+
+
+.ulfoot2{
+    display: flex;
+    flex-direction: column;
+   width: 60%;
+font-size: 8px;
     
-    .foot-item{
-    display: inline-block;
-    padding-inline: 25px;
-    padding-top: 5px;
     }
+
+.lifoot{
+    width: 100%;
+    
+}
+.mailfooter{
+font-size: 10px;
+
+}
+i{
+    color:black;
+    font-size: 15px;
+}
+
+ul{list-style-type: none;}
+
+    
+}
+
+
+@media (min-width:481px) and (max-width:768px){
+
+    h1{
+        font-size: 25px !important;
+    }
+
+    .myphoto{
+    
+        background-image: url(me4.jpg);
+        height:600px;
+        width:370px;
+        background-repeat: no-repeat;
+        border-radius: 0px 300px 300px 0px ;
+        /* position: absolute; */
+        z-index: 3;
+        
+    }
+    .photocontainer{
+    background-color:#3C4048;
+    width: 40%;
+    height: 605px;
+    /* position:relative ; */
+    z-index: 1;
+    right:0px;
+    
+    }
+    .beauty{
+        background-color: #00ADB5;
+        width:385px;
+        height: 602px;
+        /* position: absolute; */
+        z-index: 2;
+        border-radius: 0px 310px 310px 0px;}
+
+
+
+    #header{
+        display:flex;
+        flex-direction: row;
+        width: 100%;
+       
+        
+        }
+
+
+        .job{
+            margin-top: 40px;
+            font-size: small;
+            
+             }
+             .confedance{
+            margin-top: 70px;
+            font-size:10px;
+            font-family: "Courier New", monospace;
+            
+             }
+             .cv{
+            width: 150px;
+            height: 50px;
+            background-color:#00ADB5 ;
+            color: white;
+            border-radius: 10px;
+            font-size: 15px;
+            
+             }
+             .hname{
+                display: inline-block;
+                padding-inline: 4px;
+                font-size: 20px;
+            }
+            .logo{
+                width: 50px;
+                height: 50px;
+                margin-left: 50px;
+                
+            }
+            .maineduc2{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                padding: 45px 0px;
+                background-color:#E5E3E4;
+            border-radius: 30px;
+            width: 98%;
+            align-self: center;
+                }
+                
+                .eductitle{
+                background-color: #00ADB5;
+                width: 27%;
+                align-self: center;
+                border-radius: 15px;
+                margin-bottom:15px ;
+                }
+                .ineduc{
+                    width: 50%;
+                    height: 470px;
+                    font-size: 15px;
+                
+                }
+                .maineduc img{
+                width: 90%;
+                height: 85%;
+                border: black solid 2px;
+                }
+
+
+                .main{
+                    display: flex;
+                    flex-direction: column;
+                    width: 98%;
+                    text-align: center;
+                    margin-top: 55px;
+                    /* flex-wrap: wrap; */
+                    
+                    }
+
+                    .maincert{
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        text-align: center;
+                        margin-top: 55px;
+                        
+                        }
+                        
+                        .maincert2{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        flex-wrap: wrap;
+                        padding: 45px 0px;
+                        font-size: 15px;
+                        background-color:#E5E3E4;
+                    border-radius: 30px;
+                    width: 98%;
+                    align-self: center;
+                   row-gap: 100px;
+                        }
+                        
+                        .certtitle{
+                        background-color: #00ADB5;
+                        width: 35%;
+                        align-self: center;
+                        border-radius: 15px;
+                        margin-bottom:15px ;
+                        }
+                        .incert{
+                            width: 40%;
+                            height: 450px;
+                        
+                        }
+                        .maincert img{
+                        width: 90%;
+                        height: 80%;
+                        border: black solid 2px;
+                        
+                        
+                        }
+
+                        .main{
+                            display: flex;
+                            flex-direction: column;
+                            width: 100%;
+                            text-align: center;
+                            margin-top: 55px;
+                            
+                            }
+                            
+                            .mainskill{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            flex-wrap: wrap;
+                            font-size: 15px;
+                            padding-top: 35px;
+                            background-color:#E5E3E4;
+                            border-radius: 30px;
+                            width: 98%;
+                            align-self: center;
+                            }
+                            
+                            .skilltitle{
+                            background-color: #00ADB5;
+                            width: 27%;
+                            align-self: center;
+                            border-radius: 15px;
+                            margin-bottom:15px ;
+                            }
+                            .inskill{
+                                width: 40%;
+                                height: 400px;
+                            
+                            }
+                            .mainskill img{
+                            width: 95%;
+                            height: 85%;
+                            border: black solid 2px;
+                            
+                            
+                            }
+                            .main2{
+                                display: flex;
+                                flex-direction: column;
+                                /* background-color: aqua; */
+                                width: 100%;
+                                text-align: center;
+                                margin-top: 35px;
+                                
+                                }
+                                
+                                .mainskill2{
+                                display: flex;
+                                flex-direction: row;
+                                background-color:#E5E3E4;
+                                justify-content: space-around;
+                                align-content: space-between;
+                                flex-wrap: wrap;
+                                padding-top: 40px;
+                                font-size: 25px;
+                                border-radius: 30px;
+                                width: 98%;
+                                align-self: center;
+                                
+                                }
+                                
+                                .skilltitle2{
+                                background-color: #00ADB5;
+                                width: 15%;
+                                align-self: center;
+                                border-radius: 15px;
+                                margin-bottom:15px ;
+                                
+                                
+                                }
+                                .inskill2{
+                                    width: 35%;
+                                    font-size: 15px;
+                                    
+                                    
+                                
+                                }
+                                .mainskill2 img{
+                                width: 100%;
+                                height: 85%;
+                                border: black solid 2px;
+                                
+                                }
+                                .softskill{
+                                    height: auto;
+                                }
+                                
+
+
+
+
+                                .main-ref{
+                                    display: flex;
+                                    flex-direction: column;
+                                    /* background-color: aqua; */
+                                    width: 100%;
+                                    text-align: center;
+                                    margin-top: 100px;
+                                    
+                                    
+                                    
+                                    }
+                                    
+                                    .main-inner{
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-around;
+                                    flex-wrap: wrap;
+                                    font-size: 15px;
+                                    width: 100%;
+                                    margin-top: 10px;
+                                    height: auto;
+                                    
+                                    
+                                    }
+                                    
+                                    .inref{
+                                       
+                                    width: 40%;
+                                    background-color: #B2B2B2;
+                                    border-radius: 25px;
+                                    padding-top: 25px;
+                                    
+                                    
+                                    
+                                    }
+                                    .maintitle2{
+                                    background-color: #B2B2B2;
+                                    width: 27%;
+                                    border-radius: 15px;
+                                    text-align: center;
+                                    align-self: center;
+                                    }
+                                    .refimg{
+                                    border-radius: 50%;
+                                    width: 35%;
+                                    }
+                                    
+                                    #hala-card{
+                                    background-color: #00ADB5;}
+                                    
+.main-ref{
+display: flex;
+flex-direction: column;
+
+width: 100%;
+text-align: center;
+margin-top: 100px;
+
+
+
+}
+
+.main-inner{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+
+width: 100%;
+margin-top: 10px;
+height: auto;
+
+
+}
+
+.inref{
+   
+width: 40%;
+background-color: #B2B2B2;
+border-radius: 25px;
+padding-top: 25px;
+font-size: 12px;
+
+
+}
+.maintitle2{
+background-color: #B2B2B2;
+width: 25%;
+border-radius: 15px;
+text-align: center;
+align-self: center;
+}
+.refimg{
+border-radius: 50%;
+width: 35%;
+}
+
+#hala-card{
+background-color: #00ADB5;
+margin-top: 50px;
+height: 350px;
+}
+
+
+#rabee-card{
+background-color:#B2B2B2;
+height: 350px;
+
+}
+#belal-card{
+background-color:#B2B2B2;
+
+
+
+
+
+}
+
+                                    
+
+}
